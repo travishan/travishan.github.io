@@ -1,0 +1,41 @@
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
+
+title: wilson's blog
+name: wilson's blog
+description: iOS程序员
+
+github: https://github.com/travishan
+rss: true
+
+plugins:
+  - rouge
+  - kramdown
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+
+exclude:
+  - script
+  - docs
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# markdown: redcarpet
+
+# redcarpet:
+#     extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
