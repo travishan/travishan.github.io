@@ -17,23 +17,24 @@ defaults:
 title: wilson's blog
 name: wilson's blog
 description: iOS程序员
+markdown: kramdown
 
 github: https://github.com/travishan
 rss: true
 
-plugins:
-  - rouge
-  - kramdown
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jemoji
+# plugins:
+#   - rouge
+#   - kramdown
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jemoji
 
-exclude:
-  - script
-  - docs
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+# exclude:
+#   - script
+#   - docs
+#   - vendor
+#   - Gemfile
+#   - Gemfile.lock
 
 # markdown: redcarpet
 
