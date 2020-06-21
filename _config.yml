@@ -18,6 +18,7 @@ title: wilson's blog
 name: wilson's blog
 description: iOS程序员
 markdown: kramdown
+remote_theme: showzeng/Minimalism
 
 github: https://github.com/travishan
 rss: true
