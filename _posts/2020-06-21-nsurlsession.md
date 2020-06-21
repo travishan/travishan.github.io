@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "NSURLSession didReceiveChallange.md"
+---
+
 最近学习`SDWegImage`源码时，对`NSURLSession`的`didReceiveChallenge`相关的`delegate`方法有些不明白如何使用，故学习了下官方文档，记录了一些笔记。
 
 参考链接：
